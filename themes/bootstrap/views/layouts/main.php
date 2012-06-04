@@ -22,6 +22,21 @@
 	<link rel="apple-touch-icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo Yii::app()->request->baseUrl; ?>/images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo Yii::app()->request->baseUrl; ?>/images/apple-touch-icon-114x114.png">
+	
+	<script>
+		function abre(sender){
+
+		        var parent = sender.parentNode;
+
+		        var children = parent.getElementsByTagName('li');
+
+		        for(i=0;i<children.length;i++){
+		            if(children[i].parentNode==parent && children[i].className.toLowerCase()=="dropdown open".toLowerCase())
+		                children[i].setAttribute("class", "dropdown");
+		        }
+		        sender.setAttribute("class", "dropdown open");
+		    }
+	</script>
 </head>
 
 <body>
@@ -29,26 +44,49 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<a class="brand" href="<?php echo $this->createAbsoluteUrl('//'); ?>"><?php echo CHtml::encode(Yii::app()->name); ?></a>
-				<?php $this->widget('zii.widgets.CMenu',array(
-					'items'=>array(
-						array('label'=>'Home', 'url'=>array('/site/index')),
-						array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-						array('label'=>'Contact', 'url'=>array('/site/contact')),
-						array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-					),
-					'htmlOptions'=>array(
-						'class'=>'nav',
-					),
-				)); ?>
-				<?php $this->widget('zii.widgets.CMenu',array(
-					'items'=>array(
-						array('label'=>Yii::app()->user->name, 'url'=>array('site/profile'), 'visible'=>!Yii::app()->user->isGuest),
-						array('label'=>'Logout', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest, 'htmlOptions'=>array('class'=>'btn'))
-					),
-					'htmlOptions'=>array(
-						'class'=>'nav pull-right',
-					),
-				)); ?>
+						<?php $this->widget('ext.custom.widgets.BMenu',array(
+							'items'=>array(
+								array('label'=>'Inicio', 'url'=>array('/site/index')),
+								array('label'=>'Catálogos', 
+									'url'=>'#',
+									'itemOptions'=>array('class'=>'dropdown','id'=>'home'),
+									'linkOptions'=>array('class'=>'dropdown-toggle', 'data-toggle'=>'dropdown'),
+									'submenuOptions'=>array('class'=>'dropdown-menu'),
+									'items'=>array(
+										array('label'=>'Estados', 'url'=>array('/estado/index'),),
+										array('label'=>'Ciudades', 'url'=>array('/ciudad/index')),
+										array('label'=>'Preparatorias', 'url'=>array('/preparatoria/index')),
+										array('label'=>'Ciclos', 'url'=>array('/ciclo/index')),
+										array('label'=>'Categoría Servicio', 'url'=>array('/categoriaservicio/index')),
+										array('label'=>'Servicio', 'url'=>array('/servicio/index')),
+										array('label'=>'Categoría Beca', 'url'=>array('/categoriabeca/index')),
+										array('label'=>'Becas', 'url'=>array('/beca/index')),
+										array('label'=>'Prospecto', 'url'=>array('/prospecto/index')),
+									),
+								),
+								array('label'=>'Acerca de', 'url'=>array('/site/page', 'view'=>'about')),
+								array('label'=>'Contacto', 'url'=>array('/site/contact')),
+								array('label'=>'Iniciar Sesión', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+							),
+							 'activateParents'=>true,
+							'activeCssClass'=>'',
+							'htmlOptions'=>array(
+								'class'=>'nav nav-pills',
+							),
+						)); ?>
+					<?php $this->widget('zii.widgets.CMenu',array(
+						'items'=>array(
+							array('label'=>Yii::app()->user->name, 'url'=>array('site/profile'), 'visible'=>!Yii::app()->user->isGuest),
+							array(
+								'label'=>'Cerrar Sesión', 
+								'url'=>array('/site/logout'), 
+								'visible'=>!Yii::app()->user->isGuest, 
+								'htmlOptions'=>array('class'=>'btn'))
+						),
+						'htmlOptions'=>array(
+							'class'=>'nav pull-right',
+						),
+					)); ?>
 			</div>
 		</div>
 	</div>
@@ -66,11 +104,10 @@
 	
 	<footer class="footer">
 		<div class="container">
-			<p>Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-			All Rights Reserved.<br/>
+			<p>Copyright &copy; <?php echo date('Y'); ?> by Universidad San Sebastián.<br/>
+			Todos los derechos reservados.<br/>
 			<?php echo Yii::powered(); ?></p>
 		</div>
 	</footer>
-	
 </body>
 </html>

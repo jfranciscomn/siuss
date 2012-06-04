@@ -31,7 +31,7 @@ class EstatusController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update', 'autocompletesearch'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -70,7 +70,7 @@ class EstatusController extends Controller
 		{
 			$model->attributes=$_POST['Estatus'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->estatus_id));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
@@ -94,7 +94,7 @@ class EstatusController extends Controller
 		{
 			$model->attributes=$_POST['Estatus'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->estatus_id));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('update',array(
@@ -173,4 +173,25 @@ class EstatusController extends Controller
 			Yii::app()->end();
 		}
 	}
+	
+	public function actionAutocompletesearch()
+	{
+        $q = "%". $_GET['term'] ."%";
+         $result = array();
+        if (!empty($q))
+        {
+            $criteria=new CDbCriteria;
+            $criteria->select=array('id', "CONCAT_WS(' ',nombre) as nombre");
+            $criteria->condition="lower(CONCAT_WS(' ',nombre)) like lower(:nombre) ";
+            $criteria->params=array(':nombre'=>$q);
+            $criteria->limit='10';
+               $cursor = Estatus::model()->findAll($criteria);
+            foreach ($cursor as $valor)    
+                $result[]=Array('label' => $valor->nombre,  
+                                'value' => $valor->nombre,
+                                'id' => $valor->id, );
+        }
+        echo json_encode($result);
+        Yii::app()->end();
+    }
 }

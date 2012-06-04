@@ -9,7 +9,7 @@ class BController extends CBehavior{
 	private $_pageCaption = null;
 	private $_pageDescription = null;
 	
-	public $sidebarCaption = 'Menu';
+	public $sidebarCaption = 'Menú';
 	
 	/**
 	 * @return string the page heading (or caption). Defaults to the controller name and the action name,

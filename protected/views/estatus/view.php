@@ -1,17 +1,17 @@
 <?php
-$this->pageCaption='Ver Estatus #'.$model->estatus_id;
+$this->pageCaption='Ver Estatus #'.$model->id;
 $this->pageTitle=Yii::app()->name . ' - ' . $this->pageCaption;
 $this->pageDescription='';
 $this->breadcrumbs=array(
 	'Estatus'=>array('index'),
-	$model->estatus_id,
+	$model->id,
 );
 
 $this->menu=array(
 	array('label'=>'Listar Estatus', 'url'=>array('index')),
 	array('label'=>'Crear Estatus', 'url'=>array('create')),
-	array('label'=>'Actualizar Estatus', 'url'=>array('update', 'id'=>$model->estatus_id)),
-	array('label'=>'Eliminar Estatus', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->estatus_id),'confirm'=>'¿Estas seguro que quieres eliminar este elemento?')),
+	array('label'=>'Actualizar Estatus', 'url'=>array('update', 'id'=>$model->id)),
+	array('label'=>'Eliminar Estatus', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'¿Estas seguro que quieres eliminar este elemento?')),
 	array('label'=>'Administrar Estatus', 'url'=>array('admin')),
 );
 ?>
@@ -22,8 +22,7 @@ $this->menu=array(
 	'cssFile'=>false,
 	'htmlOptions'=>array('class'=>'table table-bordered table-striped'),
 	'attributes'=>array(
-		'estatus_id',
+		'id',
 		'nombre',
-		'catalogo',
 	),
 )); ?>

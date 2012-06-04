@@ -42,9 +42,8 @@ $('.search-form form').submit(function(){
 	'cssFile'=>Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('ext.bootstrap-theme.widgets.assets')).'/gridview/styles.css',
 	'itemsCssClass'=>'table  table-striped',
 	'columns'=>array(
-		'estatus_id',
+		'id',
 		'nombre',
-		'catalogo',
 		array(
 			'class'=>'CButtonColumn',
 		),

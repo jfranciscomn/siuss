@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Sistema USS',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -53,10 +53,17 @@ return array(
 		*/
 		
 		// uncomment the following to use a MySQL database
+		/*
+		'db'=>array(
+			'connectionString' => 'mysql:host=127.0.0.1;dbname=sidb',			
+			'username' => 'root',
+			'password' => '',
+			'charset' => 'utf8',
+		),
+		*/
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=192.168.5.103;dbname=siussdb',
-			
+			'connectionString' => 'mysql:host=192.168.5.103;dbname=sidb',			
 			'username' => 'usuariobd',
 			'password' => '123qwe',
 			'charset' => 'utf8',
@@ -87,6 +94,9 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'rzamarripa@uss.mx',
 	),
+	'language'=>'es', // Este es el lenguaje en el que quieres que muestre las cosas
+	'sourceLanguage'=>'en', // Este es el lenguaje por defecto de los archivos
+	'defaultController'=>'controlador/admin', // Vista por defecto
 );

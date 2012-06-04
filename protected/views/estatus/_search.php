@@ -6,9 +6,9 @@
 )); ?>
 
 	<div class="clearfix">
-		<?php echo $form->label($model,'estatus_id'); ?>
+		<?php echo $form->label($model,'id'); ?>
 		<div class="input">
-			<?php echo $form->textField($model,'estatus_id',array('size'=>11,'maxlength'=>11)); ?>
+			<?php echo $form->textField($model,'id',array('size'=>11,'maxlength'=>11)); ?>
 		</div>
 	</div>
 
@@ -16,13 +16,6 @@
 		<?php echo $form->label($model,'nombre'); ?>
 		<div class="input">
 			<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>100)); ?>
-		</div>
-	</div>
-
-	<div class="clearfix">
-		<?php echo $form->label($model,'catalogo'); ?>
-		<div class="input">
-			<?php echo $form->textField($model,'catalogo'); ?>
 		</div>
 	</div>
 
