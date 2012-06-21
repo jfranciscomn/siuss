@@ -36,7 +36,7 @@
 	<div class="clearfix">
 		<?php echo $form->label($model,'preparatoria_id'); ?>
 		<div class="input">
-			<?php echo $form->textField($model,'preparatoria_id',array('size'=>11,'maxlength'=>11)); ?>
+			<?php echo $form->dropDownList($model,'preparatoria_id',CHtml::listData(Preparatoria::model()->findAll(), 'id', 'nombre')); ?>
 		</div>
 	</div>
 

@@ -46,10 +46,9 @@ $('.search-form form').submit(function(){
 		'nombre',
 		'fechaInicial',
 		'fechaFinal',
-		array(
-			'name'=>'estatus',
-			'value'=>'$data->estatus->nombre'
-		),
+		array(	'name'=>'estatus_id',
+		        'value'=>'$data->estatus->nombre',
+			    'filter'=>CHtml::listData(Estatus::model()->findAll(), 'id', 'nombre'),),
 		array(
 			'class'=>'CButtonColumn',
 		),

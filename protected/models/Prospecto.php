@@ -159,4 +159,32 @@ class Prospecto extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	public function onAfterSaveProspecto() {
+		//echo 'fasd';   
+		$criteria=new CDbCriteria;
+		$criteria->compare('prospecto_id',$this->id,true);
+		$doctospros = DocumentoProspecto::model()->findAll($criteria);
+		
+		if(count($doctospros) )	
+			return ;
+		
+		$estatusactivo = Estatus::model()->find('nombre=:nombre', array(':nombre'=>'Activo'));
+
+		$doctos = Documento::model()->findAll('estatus_id=:estatus_id',array(':estatus_id'=>$estatusactivo->id));
+		$estatus = Estatus::model()->find('nombre=:nombre', array(':nombre'=>'No Entregado'));
+		foreach($doctos as $doc)
+		{
+			$docprosp = new DocumentoProspecto;
+			$docprosp->estatus_id = $estatus->id;
+			$docprosp->documento_id = $doc->id;
+			$docprosp->prospecto_id = $this->id;
+			$docprosp->save();
+		}
+	}
+	
+	public function getNombreCompleto()
+	{
+		
+	}
 }

@@ -22,18 +22,7 @@
 	<div class="<?php echo $form->fieldClass($model, 'estatus_id'); ?>">
 		<?php echo $form->labelEx($model,'estatus_id'); ?>
 		<div class="input">
-			<?php $this->widget('ext.custom.widgets.EJuiAutoCompleteFkField', 
-					array(
-						'model'=>$model, 
-						'attribute'=>'estatus_id',
-						'sourceUrl'=>Yii::app()->createUrl('estatus/autocompletesearch'),
-						'showFKField'=>false,
-						'relName'=>'estatus', // the relation name defined above
-						'displayAttr'=>'nombre',  // attribute or pseudo-attribute to display
-						'options'=>array(
-							'minLength'=>1,
-						),
-					)); ?>
+			<?php echo $form->dropDownList($model,'estatus_id',CHtml::listData(Estatus::model()->findAll(),'id','nombre')); ?>
 			<?php echo $form->error($model,'estatus_id'); ?>
 		</div>
 	</div>

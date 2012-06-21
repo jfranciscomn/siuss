@@ -69,8 +69,10 @@ class ProspectoController extends Controller
 		if(isset($_POST['Prospecto']))
 		{
 			$model->attributes=$_POST['Prospecto'];
-			if($model->save())
+			if($model->save()){
+				$model->onAfterSaveProspecto();
 				$this->redirect(array('view','id'=>$model->id));
+			}
 		}
 
 		$this->render('create',array(
@@ -93,8 +95,10 @@ class ProspectoController extends Controller
 		if(isset($_POST['Prospecto']))
 		{
 			$model->attributes=$_POST['Prospecto'];
-			if($model->save())
+			if($model->save()){
+				$model->onAfterSaveProspecto();
 				$this->redirect(array('view','id'=>$model->id));
+			}
 		}
 
 		$this->render('update',array(

@@ -22,16 +22,16 @@
 	<div class="clearfix">
 		<?php echo $form->label($model,'estatus_id'); ?>
 		<div class="input">
-			<?php echo $form->textField($model,'estatus_id',array('size'=>11,'maxlength'=>11)); ?>
+			<?php echo $form->dropDownList($model,'estatus_id',CHtml::listData(Estatus::model()->findAll(), 'id', 'nombre')); ?>
 		</div>
 	</div>
-
 	<div class="clearfix">
 		<?php echo $form->label($model,'estado_id'); ?>
 		<div class="input">
-			<?php echo $form->textField($model,'estado_id',array('size'=>11,'maxlength'=>11)); ?>
+			<?php echo $form->dropDownList($model,'estado_id',CHtml::listData(Estado::model()->findAll(), 'id', 'nombre')); ?>
 		</div>
 	</div>
+	
 
 	<div class="actions">
 		<?php echo BHtml::submitButton('Search'); ?>

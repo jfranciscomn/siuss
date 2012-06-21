@@ -29,7 +29,7 @@
 	<div class="clearfix">
 		<?php echo $form->label($model,'estatus_id'); ?>
 		<div class="input">
-			<?php echo $form->textField($model,'estatus_id',array('size'=>10,'maxlength'=>10)); ?>
+			<?php echo $form->dropDownList($model,'estatus_id',CHtml::listData(Estatus::model()->findAll(), 'id', 'nombre')); ?>
 		</div>
 	</div>
 

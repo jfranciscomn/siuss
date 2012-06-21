@@ -43,9 +43,13 @@ $('.search-form form').submit(function(){
 	'itemsCssClass'=>'table  table-striped',
 	'columns'=>array(
 		'id',
-		'documento_id',
+		array(	'name'=>'documento_id',
+		        'value'=>'$data->documento->nombre',
+			    'filter'=>CHtml::listData(Documento::model()->findAll(), 'id', 'nombre'),),
 		'prospecto_id',
-		'estatus_id',
+		array(	'name'=>'estatus_id',
+		        'value'=>'$data->estatus->nombre',
+			    'filter'=>CHtml::listData(Estatus::model()->findAll(), 'id', 'nombre'),),
 		array(
 			'class'=>'CButtonColumn',
 		),

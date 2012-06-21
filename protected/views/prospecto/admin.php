@@ -46,10 +46,9 @@ $('.search-form form').submit(function(){
 		'nombre',
 		'apellidoPaterno',
 		'apellidoMaterno',
-		array(
-			'name'=>'preparatoria',
-			'value'=>'$data->preparatoria->nombre'
-		),
+		array(	'name'=>'preparatoria_id',
+		        'value'=>'$data->preparatoria->nombre',
+			    'filter'=>CHtml::listData(Preparatoria::model()->findAll(), 'id', 'nombre'),),
 		'telefono',
 		/*
 		'email',

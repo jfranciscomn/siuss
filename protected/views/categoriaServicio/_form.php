@@ -22,7 +22,7 @@
 	<div class="<?php echo $form->fieldClass($model, 'estatus_id'); ?>">
 		<?php echo $form->labelEx($model,'estatus_id'); ?>
 		<div class="input">
-			<?php echo $form->dropDownList($model,'estatus_id',CHtml::listData(Estatus::model()->findAll(),'id','nombre'));
+			<?php echo $form->dropDownList($model,'estatus_id',CHtml::listData(Estatus::model()->findAll(),'id','nombre'));?>
 			<?php echo $form->error($model,'estatus_id'); ?>
 		</div>
 	</div>

@@ -7066,3 +7066,317 @@ Stack trace:
 REQUEST_URI=/siuss/index.php?r=documentoProspecto/create
 in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/DocumentoProspectoController.php (70)
 in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:10:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/
+---
+2012/06/04 16:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/
+---
+2012/06/04 16:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/
+---
+2012/06/04 16:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/
+---
+2012/06/04 16:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/
+---
+2012/06/04 16:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/index.php
+HTTP_REFERER=http://localhost/siuss/index.php?r=site/login
+---
+2012/06/04 16:32:21 [warning] [application] Failed to set unsafe attribute "estatus" of "CategoriaServicio".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/CategoriaservicioController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:32:25 [warning] [application] Failed to set unsafe attribute "estatus" of "CategoriaServicio".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/CategoriaservicioController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:32:31 [warning] [application] Failed to set unsafe attribute "estatus" of "CategoriaServicio".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/CategoriaservicioController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:32:33 [warning] [application] Failed to set unsafe attribute "estatus" of "CategoriaServicio".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/CategoriaservicioController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:35:41 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:35:43 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:35:48 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:35:52 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:35:56 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:37:37 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:37:39 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 16:41:26 [warning] [application] Failed to set unsafe attribute "estatus" of "Estado".
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/EstadoController.php (144)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 17:41:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.5.103' (65)' in /Applications/XAMPP/xamppfiles/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(2268): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(Prospecto))
+#7 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(398): CActiveRecord::model('Prospecto')
+#8 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(141): CActiveRecord->__construct('search')
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(50): ProspectoController->actionAdmin()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#20 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('prospecto/admin')
+#21 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/siuss/index.php?r=prospecto/admin
+---
+2012/06/04 17:41:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.5.103' (65)' in /Applications/XAMPP/xamppfiles/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Applications/XAMPP/xamppfiles/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Applications/XAMPP/xamppfiles/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(2268): CActiveRecord->getDbConnection()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(Prospecto))
+#7 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(398): CActiveRecord::model('Prospecto')
+#8 /Applications/XAMPP/xamppfiles/yii/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(141): CActiveRecord->__construct('search')
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(50): ProspectoController->actionAdmin()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#18 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): CController->run('admin')
+#20 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('prospecto/admin')
+#21 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/siuss/index.php?r=prospecto/admin
+---
+2012/06/04 17:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/index.php
+HTTP_REFERER=http://localhost/siuss/index.php?r=prospecto/update&id=6
+---
+2012/06/04 17:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/index.php
+HTTP_REFERER=http://localhost/siuss/index.php
+---
+2012/06/04 18:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "controlador/admin"' in /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#1 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/siuss/index.php?rgii
+---
+2012/06/04 19:26:10 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/models/Prospecto.php:164) (/Applications/XAMPP/xamppfiles/yii/framework/web/CHttpRequest.php:763)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(100): ProspectoController->redirect()
+#1 unknown(0): ProspectoController->actionUpdate()
+#2 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): ProspectoController->runAction()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): ProspectoController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): ProspectoController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): ProspectoController->run()
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CWebApplication->run()
+REQUEST_URI=/siuss/index.php?r=prospecto/update&id=6
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php (100)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 19:30:03 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/models/Prospecto.php:168) (/Applications/XAMPP/xamppfiles/yii/framework/web/CHttpRequest.php:763)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(100): ProspectoController->redirect()
+#1 unknown(0): ProspectoController->actionUpdate()
+#2 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): ProspectoController->runAction()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): ProspectoController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): ProspectoController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): ProspectoController->run()
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CWebApplication->run()
+REQUEST_URI=/siuss/index.php?r=prospecto/update&id=6
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php (100)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 19:31:26 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/models/Prospecto.php:168) (/Applications/XAMPP/xamppfiles/yii/framework/web/CHttpRequest.php:763)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(100): ProspectoController->redirect()
+#1 unknown(0): ProspectoController->actionUpdate()
+#2 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): ProspectoController->runAction()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): ProspectoController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): ProspectoController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): ProspectoController->run()
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CWebApplication->run()
+REQUEST_URI=/siuss/index.php?r=prospecto/update&id=6
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php (100)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 19:31:49 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/models/Prospecto.php:168) (/Applications/XAMPP/xamppfiles/yii/framework/web/CHttpRequest.php:763)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(100): ProspectoController->redirect()
+#1 unknown(0): ProspectoController->actionUpdate()
+#2 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): ProspectoController->runAction()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): ProspectoController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): ProspectoController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): ProspectoController->run()
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CWebApplication->run()
+REQUEST_URI=/siuss/index.php?r=prospecto/update&id=6
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php (100)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 19:35:53 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/models/Prospecto.php:168) (/Applications/XAMPP/xamppfiles/yii/framework/web/CHttpRequest.php:763)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(100): ProspectoController->redirect()
+#1 unknown(0): ProspectoController->actionUpdate()
+#2 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): ProspectoController->runAction()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): ProspectoController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): ProspectoController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): ProspectoController->run()
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CWebApplication->run()
+REQUEST_URI=/siuss/index.php?r=prospecto/update&id=6
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php (100)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 19:36:56 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/models/Prospecto.php:168) (/Applications/XAMPP/xamppfiles/yii/framework/web/CHttpRequest.php:763)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(100): ProspectoController->redirect()
+#1 unknown(0): ProspectoController->actionUpdate()
+#2 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): ProspectoController->runAction()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): ProspectoController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): ProspectoController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): ProspectoController->run()
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CWebApplication->run()
+REQUEST_URI=/siuss/index.php?r=prospecto/update&id=6
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php (100)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
+2012/06/04 19:37:03 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/models/Prospecto.php:168) (/Applications/XAMPP/xamppfiles/yii/framework/web/CHttpRequest.php:763)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php(100): ProspectoController->redirect()
+#1 unknown(0): ProspectoController->actionUpdate()
+#2 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#3 /Applications/XAMPP/xamppfiles/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(134): ProspectoController->runAction()
+#6 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CInlineFilter.php(59): ProspectoController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(292): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/yii/framework/web/CController.php(266): ProspectoController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(276): ProspectoController->run()
+#13 /Applications/XAMPP/xamppfiles/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php(13): CWebApplication->run()
+REQUEST_URI=/siuss/index.php?r=prospecto/update&id=6
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/protected/controllers/ProspectoController.php (100)
+in /Applications/XAMPP/xamppfiles/htdocs/siuss/index.php (13)
